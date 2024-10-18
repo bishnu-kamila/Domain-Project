@@ -12,8 +12,8 @@ const Navbar = () => {
                     <a className="ml-[30px]" href="">About</a>
                 </div>
                 <div className="ml-[50px] mt-[10px]">
-                    <a href=""><button>Sign-up</button></a>
-                    <a className="ml-[20px]" href=""><button>Sign-in</button></a>
+                    <Link to="/Signup">Sign-up</Link>
+                    <Link to="/Login" className="ml-[20px]">Sign-in</Link>
                 </div>
             </div>
         </>
