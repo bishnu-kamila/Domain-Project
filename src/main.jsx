@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Signup from './Component/Signup.jsx'
 import Login from './Component/Login.jsx'
-import { createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 
 
@@ -15,11 +15,11 @@ const router = createBrowserRouter([
     children : [
       
       {
-        path : "/Signup",
+        path : "Signup",
         element : <Signup/>
       },
       {
-        path : "/Login",
+        path : "Login",
         element : <Login/>
       }
     ]
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}/>
-  </StrictMode>,
+  </StrictMode>
 )
 
 
