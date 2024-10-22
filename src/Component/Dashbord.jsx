@@ -1,8 +1,12 @@
 const Dashbord = ()=>{
     return(
         <>
-            <h1>This is Dashboard</h1>
-            <p>Dashboard contain Details</p>
+            <h1>Dashboard</h1>
+            <table>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
         </>
     )
 }
