@@ -7,13 +7,13 @@ const Navbar = () => {
                 <img className="h-[50px] w-[40px]" src="./src/images/images-removebg-preview.png" alt="" />
                 <h1 className="text-black ml-[30px] mt-[10px] font-bold">Hostel Management System</h1>
                 <div className="ml-[750px] mt-[10px]">
-                    <a className="ml-[30px]" href="">Home</a>
+                    <Link to="/">Home</Link>
                     <a className="ml-[30px]" href="">Education</a>
                     <a className="ml-[30px]" href="">About</a>
                 </div>
                 <div className="ml-[50px] mt-[10px]">
-                    <Link to="/Signup">Sign-up</Link>
-                    <Link to="/Login" className="ml-[20px]">Sign-in</Link>
+                    <Link to = "/signup">Sign-up</Link>
+                    <Link to = "/login" className="ml-[20px]">Sign-in</Link>
                 </div>
             </div>
         </>
