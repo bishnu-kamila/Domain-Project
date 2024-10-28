@@ -1,8 +1,34 @@
 const Dashbord = ()=>{
     return(
         <>
-            <h1>Dashboard</h1>
-            
+            <div>
+                <h1>Dashboard</h1>
+                <div>
+                    <div>
+                        <h1>
+                            Hostel
+                        </h1>
+                    </div>
+                    <div>
+                        <h1>
+                            Registration
+                        </h1>
+                    </div>
+                    <div>
+                        <h1>
+                            Notification
+                        </h1>
+                    </div>
+                    <div>
+                        <h1>Canteen</h1>
+                    </div>
+                    <div>
+                        <h1>
+                            Laundry
+                        </h1>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
