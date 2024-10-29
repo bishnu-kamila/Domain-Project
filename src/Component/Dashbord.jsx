@@ -2,10 +2,10 @@ const Dashbord = ()=>{
     return(
         <>
             <div>
-                <h1>Dashboard</h1>
+                <h1 className="text-black font-xl">Dashboard</h1>
                 <div>
-                    <div>
-                        <h1>
+                    <div className="h-[50px] w-[50px]">
+                        <h1 className="">
                             Hostel
                         </h1>
                     </div>
