@@ -3,6 +3,9 @@ const Notification = ()=>{
         <>
             <div>
                 <h1>This is Notification Page</h1>
+                <div>
+                    
+                </div>
             </div>
         </>
     )
