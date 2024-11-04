@@ -10,15 +10,15 @@ const HostelRegd = ()=>{
                     <div>
                         <div className="flex">
                             <label className="font-medium text-lg border-grey-100 rounded-xl p-4 mt-1 ">First Name</label>
-                            <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4 ml-8" type="text" placeholder="Enter yor Email_id" />
+                            <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4 ml-8" type="text" placeholder="Enter yor Name" />
                         </div>
                         <div className="flex">
                             <label className="font-medium text-lg border-grey-100 rounded-xl p-4 mt-1">Last Name</label>
-                            <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4" type="text" placeholder="Password" />
+                            <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4" type="text" placeholder="Enter Last Name" />
                         </div>
                         <div className="flex">
                             <label className="font-medium text-lg border-grey-100 rounded-xl p-4 mt-1">Mob no </label>
-                            <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4" type="number" placeholder="Password" />
+                            <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4" type="number" placeholder="Mobile number" />
                         </div>
                     </div>
                     <div>
