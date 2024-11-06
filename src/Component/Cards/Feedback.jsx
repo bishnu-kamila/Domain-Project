@@ -5,6 +5,7 @@ const Feedback = ()=>{
                 <h1>
                     This is the feedback page
                 </h1>
+                <input type="text" placeholder="Write Feedback" />
             </div>
         </>
     )

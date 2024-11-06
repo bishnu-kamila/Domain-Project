@@ -19,7 +19,7 @@ const Login = ()=>{
                         </div>
                         <div className="">
                             <button className="mt-8 ml-[30px] w-[130px]">ForgetPassword</button><br></br>
-                            <button className="mt-8 ml-[10px] bg-blue-300 rounded-md w-full h-8">Login</button>
+                            <button className="mt-8 ml-[10px] bg-blue-300 rounded-md w-full h-8" >Login</button>
                         </div>
                     </div>
                     
