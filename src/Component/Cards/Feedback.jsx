@@ -7,7 +7,11 @@ const Feedback = ()=>{
                 </h1>
                 <input type="text" placeholder="Write Feedback" />
             </div>
+            <div>
+                <button className="" >Submit</button>
+            </div>
         </>
     )
 }
 export default Feedback
+
