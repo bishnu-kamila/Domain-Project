@@ -2,10 +2,10 @@ const Feedback = ()=>{
     return(
         <>
             <div>
-                <h1>
+                <h1 className="flex item-center justify-center text-xl-green-700">
                     This is the feedback page
                 </h1>
-                <input type="text" placeholder="Write Feedback" />
+                <input className="" type="text" placeholder="Write Feedback" />
             </div>
             <div>
                 <button className="" >Submit</button>
