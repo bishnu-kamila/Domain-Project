@@ -40,3 +40,5 @@ const HostelRegd = ()=>{
         </>
     )
 }
+
+export default HostelRegd

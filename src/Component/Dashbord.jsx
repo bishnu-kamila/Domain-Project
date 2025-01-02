@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Laundry from "./Laundry";
+import HostelRegd from "./HostelRegd";
 
 const Dashbord = () => {
   return (
@@ -75,5 +77,7 @@ const Dashbord = () => {
     </div>
   );
 };
+
+
 
 export default Dashbord;

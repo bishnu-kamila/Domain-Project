@@ -7,6 +7,9 @@ import Login from './Component/Login.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Component/Home.jsx'
 import Dashbord from './Component/Dashbord.jsx'
+import Notification from './Component/Cards/Notification.jsx'
+import Laundry from './Component/Laundry.jsx'
+import HostelRegd from './Component/HostelRegd.jsx'
 
 
 
@@ -30,11 +33,18 @@ const router = createBrowserRouter([
       {
         path : "dashboard",
         element : <Dashbord/>
+      },{
+        path : "notification",
+        element : <Notification/>
+      },
+      {
+        path : "laundry",
+        element : <Laundry/>
+      },
+      {
+        path : "registration",
+        element : <HostelRegd/>
       }
-      // {
-      //   path : "laundry",
-      //   element : <Laundry/>
-      // }
     ]
   }
   
