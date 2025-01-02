@@ -20,6 +20,14 @@ const HostelRegd = ()=>{
                             <label className="font-medium text-lg border-grey-100 rounded-xl p-4 mt-1">Mob no </label>
                             <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4" type="number" placeholder="Mobile number" />
                         </div>
+                        <div className="flex">
+                            <label className="font-medium text-lg border-grey-100 rounded-xl p-4 mt-1">Branch </label>
+                            <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4" type="text" placeholder="Branch" />
+                        </div>
+                        <div className="flex">
+                            <label className="font-medium text-lg border-grey-100 rounded-xl p-4 mt-1">Email</label>
+                            <input className="w-full h-8 border-2 border-grey-100 rounded-xl p-4 mt-4" type="email" placeholder="Mobile number" />
+                        </div>
                     </div>
                     <div>
                         <button className="mt-8 ml-[10px] bg-blue-300 rounded-md w-full h-8">Sign-Up</button><br></br>
