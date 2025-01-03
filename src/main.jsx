@@ -10,6 +10,8 @@ import Dashbord from './Component/Dashbord.jsx'
 import Notification from './Component/Cards/Notification.jsx'
 import Laundry from './Component/Laundry.jsx'
 import HostelRegd from './Component/HostelRegd.jsx'
+import Feedback from './Component/Cards/Feedback.jsx'
+import Payment from './Component/Cards/Payment.jsx'
 
 
 
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
       {
         path : "registration",
         element : <HostelRegd/>
+      },
+      {
+        path : "feedback",
+        element : <Feedback/>
+      },
+      {
+        path : "payment",
+        element : <Payment/>
       }
     ]
   }
