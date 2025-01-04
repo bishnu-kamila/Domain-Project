@@ -12,6 +12,7 @@ import Laundry from './Component/Laundry.jsx'
 import HostelRegd from './Component/HostelRegd.jsx'
 import Feedback from './Component/Cards/Feedback.jsx'
 import Payment from './Component/Cards/Payment.jsx'
+import Canteen from './Component/Cards/Canteen.jsx'
 
 
 
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path : "payment",
         element : <Payment/>
+      },
+      {
+        path : "canteen",
+        element : <Canteen/>
       }
     ]
   }
