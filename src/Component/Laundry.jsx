@@ -1,15 +1,52 @@
-import React from "react";
-const Laundry = ()=>{
-    return(
-        <>
-            <h1>Welcome to Laundry</h1>
-            <h3>Swachha bharat mission</h3>
-            <div className="flex items-center justify-center h-screen">
-                <button className="border-2 bg-blue h-[20px] w-[50px]">Book Laundry</button>
-                <button className="border-2 bg-blue h-[20px] w-[70px]">Book Premium Laundry</button>
-                <h1>order inquary</h1>
-            </div>
-        </>
-    )
-}
+// Importing required modules
+import React, { useState } from 'react';
+
+const Laundry = () => {
+  // State for managing the number of clothes
+  const [clothes, setClothes] = useState(0);
+
+  // Function to handle order submission
+  const handleOrder = () => {
+    alert(`You have ordered laundry for ${clothes} clothes.`);
+    setClothes(0); // Reset the clothes count
+  };
+
+  return (
+    <div
+      className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-6"
+      style={{
+        backgroundImage: 'url("./Laundrybg.jpg")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      <h1 className="text-3xl font-bold text-gray-800 mb-6 bg-white/70 px-4 py-2 rounded-lg">
+        Laundry Service
+      </h1>
+
+      <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-sm">
+        <label htmlFor="clothes" className="block text-gray-700 text-sm font-bold mb-2">
+          Number of Clothes
+        </label>
+        <input
+          id="clothes"
+          type="number"
+          min="0"
+          value={clothes}
+          onChange={(e) => setClothes(Number(e.target.value))}
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+        />
+
+        <button
+          onClick={handleOrder}
+          className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        >
+          Order
+        </button>
+      </div>
+    </div>
+  );
+};
+
 export default Laundry;
