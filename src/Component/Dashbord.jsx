@@ -59,7 +59,7 @@ const Dashbord = () => {
         </div>
 
         <div>
-          <Link to="/room-info">
+          <Link to="/roominfo">
             <div className="h-[200px] w-[200px] justify-center items-center rounded-[40px] flex flex-col">
               <img src="./RoomImg.png" alt="Room Info" />
               <h1 className="text-center text-black text-xl">Room Info</h1>
