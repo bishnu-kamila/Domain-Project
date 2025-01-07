@@ -7,11 +7,7 @@ import React from 'react';
 const Admin = () => {
     return (
         <div className="min-h-screen bg-gray-100">
-            <header className="bg-blue-600 text-white py-4 shadow-md">
-                <div className="container mx-auto px-4">
-                    <h1 className="text-2xl font-bold">Admin Dashboard</h1>
-                </div>
-            </header>
+            
 
             <main className="container mx-auto px-4 py-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
