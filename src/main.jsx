@@ -14,6 +14,7 @@ import Feedback from './Component/Cards/Feedback.jsx'
 import Payment from './Component/Cards/Payment.jsx'
 import Canteen from './Component/Cards/Canteen.jsx'
 import RoomInfo from './Component/Cards/RoomInfo.jsx'
+import Admin from './Admin.jsx'
 
 
 
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
       {
         path : "roominfo",
         element : <RoomInfo/>
+      },
+      {
+        path : "admin",
+        element : <Admin/>
       }
     ]
   }
@@ -76,9 +81,4 @@ createRoot(document.getElementById('root')).render(
     <RouterProvider router={router}/>
   </StrictMode>
 )
-
-
-
-
-
 
