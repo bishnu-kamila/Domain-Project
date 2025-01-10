@@ -1,6 +1,5 @@
 // Import necessary libraries
 import React, { useState } from 'react';
-import './App.css'; // Include Tailwind CSS
 
 const Home = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
