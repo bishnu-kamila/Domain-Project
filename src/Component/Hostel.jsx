@@ -5,6 +5,8 @@ const Hostel = ()=>{
                 <h1 className="font-bold text-2xl">Hostel</h1>
             </div>
             <div>
+                <label>Enter Hostel number</label>
+                <input type="text" placeholder="Hostel number :-" />
                 <label>Enter Room number: </label>
                 <input type="number" placeholder="Room no :-" />
             </div>
