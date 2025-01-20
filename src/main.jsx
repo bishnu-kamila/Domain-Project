@@ -16,6 +16,7 @@ import Canteen from './Component/Cards/Canteen.jsx'
 import RoomInfo from './Component/Cards/RoomInfo.jsx'
 import Admin from './Admin.jsx'
 import Hostel from './Component/Hostel.jsx'
+import Adminn from './Component/Adminn.jsx'
 
 
 
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path : "hostel",
         element : <Hostel/>
+      },
+      {
+        path : "adminn",
+        element : <Adminn/>
       }
     ]
   }

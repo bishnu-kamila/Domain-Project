@@ -20,7 +20,7 @@ const Signup = () => {
                             </div>
                         </div>
                         <div>
-                            <Link to='/admin'><button className="mt-8 ml-[10px] bg-blue-300 rounded-md w-full h-8">Sign-Up</button><br></br></Link>
+                            <Link to='/adminn'><button className="mt-8 ml-[10px] bg-blue-300 rounded-md w-full h-8">Sign-Up</button><br></br></Link>
                             
                             <button className="mt-8 ml-[200px] w-[130px]">Reset</button>
                         </div>
