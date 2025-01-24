@@ -7,7 +7,6 @@ const styles = {
   header: 'text-2xl font-bold mb-6 text-center',
   grid: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6',
   card: 'border rounded-lg shadow p-6 text-center hover:bg-gray-100 cursor-pointer transition',
-  button: 'mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition',
 };
 
 // Functional Component
@@ -33,7 +32,6 @@ const Adminn = () => {
           <div key={index} className={styles.card}>
             <h3 className="text-lg font-semibold mb-2">{section.name}</h3>
             <p className="text-sm text-gray-600">{section.description}</p>
-            <button className={styles.button}>Go to {section.name}</button>
           </div>
         ))}
       </div>
