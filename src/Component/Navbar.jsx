@@ -1,13 +1,19 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <>
             <div className="bg-blue h-[30px] w-full flex items-center justify-between p-4">
                 <div className="flex items-center">
-                    <img className="h-[50px] w-[40px]" src="./src/images/images-removebg-preview.png" alt="" />
-                    <h1 className="text-black ml-[20px] text-lg font-bold">Hostel Management System</h1>
+                    <img
+                        className="h-[50px] w-[40px]"
+                        src="./src/images/images-removebg-preview.png"
+                        alt=""
+                    />
+                    <h1 className="text-black ml-[20px] text-lg font-bold">
+                        Hostel Management System
+                    </h1>
                 </div>
 
                 {/* Navigation links for large screens */}
@@ -17,10 +23,20 @@ const Navbar = () => {
                     <a href="">About</a>
                 </div>
 
-                {/* Sign-in and Sign-up links */}
+                {/* Sign-in and Sign-up links with hover effects */}
                 <div className="hidden md:flex space-x-6">
-                    <Link to="/signup">Sign-up</Link>
-                    <Link to="/login" className="ml-[20px]">Sign-in</Link>
+                    <Link
+                        to="/signup"
+                        className="px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-600 transition duration-300"
+                    >
+                        Sign-up
+                    </Link>
+                    <Link
+                        to="/login"
+                        className="px-4 py-2 rounded bg-green-500 text-white hover:bg-green-600 transition duration-300 ml-[20px]"
+                    >
+                        Sign-in
+                    </Link>
                 </div>
 
                 {/* Mobile Menu Button */}
