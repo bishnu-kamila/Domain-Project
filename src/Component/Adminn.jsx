@@ -15,7 +15,7 @@ const Adminn = () => {
     { name: 'Students', description: 'Manage student details and records' },
     { name: 'Warden', description: 'Oversee warden management' },
     { name: 'Canteen', description: 'Handle canteen services and menus' },
-    { name: 'Laundry', description: 'Organize laundry services' },
+    { name: 'Laundry', description: 'Manage laundry services' },
     { name: 'Room', description: 'Allocate and maintain room details' },
     { name: 'Payment', description: 'Track and manage payments' },
     { name: 'Notification', description: 'Send alerts and notifications' },
