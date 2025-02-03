@@ -1,5 +1,6 @@
 // Import necessary libraries
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 // Tailwind CSS styling
 const styles = {
@@ -11,11 +12,13 @@ const styles = {
 
 // Functional Component
 const Adminn = () => {
+  const navigate = useNavigate();
+
   const sections = [
     { name: 'Students', description: 'Manage student details and records' },
     { name: 'Warden', description: 'Oversee warden management' },
     { name: 'Canteen', description: 'Handle canteen services and menus' },
-    { name: 'Laundry', description: 'Manage laundry services' },
+    { name: 'Laundry', description: 'Manage laundry services', link: '/laundryorder' },
     { name: 'Room', description: 'Allocate and maintain room details' },
     { name: 'Payment', description: 'Track and manage payments' },
     { name: 'Notification', description: 'Send alerts and notifications' },
@@ -29,7 +32,11 @@ const Adminn = () => {
       <header className={styles.header}>Hostel Management System</header>
       <div className={styles.grid}>
         {sections.map((section, index) => (
-          <div key={index} className={styles.card}>
+          <div
+            key={index}
+            className={styles.card}
+            onClick={() => section.link && navigate(section.link)}
+          >
             <h3 className="text-lg font-semibold mb-2">{section.name}</h3>
             <p className="text-sm text-gray-600">{section.description}</p>
           </div>
