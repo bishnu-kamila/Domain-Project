@@ -2,22 +2,26 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import Signup from './Component/Signup.jsx'
-import Login from './Component/Login.jsx'
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './Component/Home.jsx'
-import Dashbord from './Component/Dashbord.jsx'
+import Home from './Component/Home/Home.jsx'
+import Login from './Component/Home/Login.jsx'
+import Dashbord from './Component/Student/Dashbord.jsx'
 import Notification from './Component/Student/Notification.jsx'
-import Laundry from './Component/Laundry.jsx'
-import HostelRegd from './Component/HostelRegd.jsx'
+import LaundryOrders from './Component/Laundry/LaundryOrders.jsx'
 import Feedback from './Component/Student/Feedback.jsx'
-import Payment from './Component/Student/Payment.jsx'
 import Canteen from './Component/Student/Canteen.jsx'
+import Hostel from './Component/Student/Hostel.jsx'
+import Adminn from './Component/Admin/Adminn.jsx'
 import RoomInfo from './Component/Student/RoomInfo.jsx'
 import Admin from './Admin.jsx'
-import Hostel from './Component/Hostel.jsx'
-import Adminn from './Component/Adminn.jsx'
-import LaundryOrders from './Component/LaundryOrders.jsx'
+import Payment from './Component/Student/Payment.jsx'
+
+
+import Laundry from './Component/Laundry.jsx'
+import HostelRegd from './Component/Student/HostelRegd.jsx'
+import Signup from './Component/Home/Signup.jsx'
+
 
 
 
