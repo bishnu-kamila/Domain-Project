@@ -1,8 +1,7 @@
-// Importing required modules
+
 import React, { useState } from "react";
 
 const Canteen = () => {
-  // State for managing today's items
   const [todaysItems, setTodaysItems] = useState([
     "Pasta",
     "Grilled Chicken",
@@ -11,11 +10,9 @@ const Canteen = () => {
     "Dessert - Gulab Jamun",
   ]);
 
-  // State for leave request
   const [leaveStartDate, setLeaveStartDate] = useState("");
   const [leaveEndDate, setLeaveEndDate] = useState("");
 
-  // Function to handle leave submission
   const handleLeaveSubmit = () => {
     if (!leaveStartDate || !leaveEndDate) {
       alert("Please select both start and end dates.");
@@ -29,10 +26,8 @@ const Canteen = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center">
-      {/* Page Title */}
       <h1 className="text-4xl font-bold text-gray-800 mb-8">Canteen Management</h1>
 
-      {/* Today's Items Section */}
       <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Today's Items</h2>
         <ul className="list-disc list-inside text-gray-700">
@@ -44,11 +39,9 @@ const Canteen = () => {
         </ul>
       </div>
 
-      {/* Leave Request Section */}
       <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Leave Request</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Start Date */}
           <div>
             <label
               htmlFor="leaveStartDate"
@@ -65,7 +58,6 @@ const Canteen = () => {
             />
           </div>
 
-          {/* End Date */}
           <div>
             <label
               htmlFor="leaveEndDate"

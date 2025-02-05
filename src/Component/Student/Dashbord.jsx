@@ -8,7 +8,7 @@ const Dashbord = () => {
         Dashboard
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-12 items-center justify-center">
-        {/* Hostel Section */}
+        
         <div className="flex flex-col items-center">
           <Link to="/hostel">
             <div className="h-[150px] sm:h-[200px] w-[150px] sm:w-[200px] justify-center items-center rounded-[20px] sm:rounded-[40px] flex flex-col shadow-md hover:shadow-lg transition">
@@ -24,8 +24,6 @@ const Dashbord = () => {
             </div>
           </Link>
         </div>
-
-        {/* Notification & Canteen Section */}
         <div className="flex flex-col items-center">
           <Link to="/notification">
             <div className="h-[150px] sm:h-[200px] w-[150px] sm:w-[200px] justify-center items-center rounded-[20px] sm:rounded-[40px] flex flex-col shadow-md hover:shadow-lg transition">
@@ -41,8 +39,6 @@ const Dashbord = () => {
             </div>
           </Link>
         </div>
-
-        {/* Laundry & Feedback Section */}
         <div className="flex flex-col items-center">
           <Link to="/laundry">
             <div className="h-[150px] sm:h-[200px] w-[150px] sm:w-[200px] justify-center items-center rounded-[20px] sm:rounded-[40px] flex flex-col shadow-md hover:shadow-lg transition">
@@ -58,8 +54,6 @@ const Dashbord = () => {
             </div>
           </Link>
         </div>
-
-        {/* Room Info & Payment Section */}
         <div className="flex flex-col items-center">
           <Link to="/roominfo">
             <div className="h-[150px] sm:h-[200px] w-[150px] sm:w-[200px] justify-center items-center rounded-[20px] sm:rounded-[40px] flex flex-col shadow-md hover:shadow-lg transition">
