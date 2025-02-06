@@ -7,7 +7,6 @@ const RoomInfo = () => {
 
   const fetchRoomData = async () => {
     try {
-      // Replace with your actual API endpoint
       const response = await fetch(`/api/rooms/${roomNumber}`);
       if (!response.ok) {
         throw new Error("Room not found or server error");
