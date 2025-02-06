@@ -17,6 +17,7 @@ const RoomInfo = () => {
     } catch (err) {
       setRoomData(null);
       setError(err.message);
+      
     }
   };
 
