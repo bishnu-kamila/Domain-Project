@@ -8,7 +8,6 @@ function Warden() {
       </header>
 
       <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {/* Room Info */}
         <section className="bg-white p-4 rounded-md shadow-md">
           <h2 className="text-xl font-semibold mb-2">Room Info</h2>
           <p className="text-gray-600">Manage room details here.</p>
@@ -16,8 +15,6 @@ function Warden() {
             View Rooms
           </button>
         </section>
-
-        {/* Student Info */}
         <section className="bg-white p-4 rounded-md shadow-md">
           <h2 className="text-xl font-semibold mb-2">Student Info</h2>
           <p className="text-gray-600">Manage student details here.</p>
@@ -26,7 +23,6 @@ function Warden() {
           </button>
         </section>
 
-        {/* Attendance */}
         <section className="bg-white p-4 rounded-md shadow-md">
           <h2 className="text-xl font-semibold mb-2">Attendance</h2>
           <p className="text-gray-600">Track attendance records here.</p>
@@ -35,7 +31,6 @@ function Warden() {
           </button>
         </section>
 
-        {/* Canteen Info */}
         <section className="bg-white p-4 rounded-md shadow-md">
           <h2 className="text-xl font-semibold mb-2">Canteen Info</h2>
           <p className="text-gray-600">Manage canteen details here.</p>
