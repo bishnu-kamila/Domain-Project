@@ -2,10 +2,7 @@
 import React, { useState } from 'react';
 
 const Laundry = () => {
-  // State for managing the number of clothes
   const [clothes, setClothes] = useState(0);
-
-  // Function to handle order submission
   const handleOrder = () => {
     alert(`You have ordered laundry for ${clothes} clothes.`);
     setClothes(0); // Reset the clothes count
