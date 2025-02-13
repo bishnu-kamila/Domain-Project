@@ -1,11 +1,11 @@
-// Importing required modules
+
 import React, { useState } from 'react';
 
 const Laundry = () => {
   const [clothes, setClothes] = useState(0);
   const handleOrder = () => {
     alert(`You have ordered laundry for ${clothes} clothes.`);
-    setClothes(0); // Reset the clothes count
+    setClothes(0); 
   };
 
   return (

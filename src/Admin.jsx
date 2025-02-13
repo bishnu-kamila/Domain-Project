@@ -1,6 +1,4 @@
-// Admin Dashboard Page
-// Framework: React.js
-// Styling: Tailwind CSS
+
 
 import React from 'react';
 
@@ -11,7 +9,7 @@ const Admin = () => {
 
             <main className="container mx-auto px-4 py-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {/* Canteen Access */}
+                   
                     <div className="bg-white shadow-lg rounded-lg p-6">
                         <h2 className="text-xl font-semibold mb-4">Canteen Management</h2>
                         <p>Manage student and staff access to canteen services.</p>
@@ -20,7 +18,6 @@ const Admin = () => {
                         </button>
                     </div>
 
-                    {/* Student Access */}
                     <div className="bg-white shadow-lg rounded-lg p-6">
                         <h2 className="text-xl font-semibold mb-4">Student Management</h2>
                         <p>Monitor and control student access to facilities and services.</p>
@@ -28,8 +25,6 @@ const Admin = () => {
                             Manage Students
                         </button>
                     </div>
-
-                    {/* Warden Access */}
                     <div className="bg-white shadow-lg rounded-lg p-6">
                         <h2 className="text-xl font-semibold mb-4">Warden Management</h2>
                         <p>Oversee warden roles and permissions.</p>
@@ -38,7 +33,6 @@ const Admin = () => {
                         </button>
                     </div>
 
-                    {/* Laundry Management */}
                     <div className="bg-white shadow-lg rounded-lg p-6">
                         <h2 className="text-xl font-semibold mb-4">Laundry Services</h2>
                         <p>Track and manage laundry services and schedules.</p>
