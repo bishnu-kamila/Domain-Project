@@ -16,14 +16,11 @@ const Navbar = () => {
                     </h1>
                 </div>
 
-                {/* Navigation links for large screens */}
                 <div className="hidden md:flex space-x-6">
                     <Link to="/">Home</Link>
                     <a href="">Education</a>
                     <a href="">About</a>
                 </div>
-
-                {/* Sign-in and Sign-up links with hover effects */}
                 <div className="hidden md:flex space-x-6">
                     <Link
                         to="/signup"
@@ -39,7 +36,6 @@ const Navbar = () => {
                     </Link>
                 </div>
 
-                {/* Mobile Menu Button */}
                 <div className="md:hidden">
                     <button className="text-white">☰</button>
                 </div>
