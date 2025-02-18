@@ -12,7 +12,6 @@ const Signup = () => {
           </p>
           <div className="mt-8">
             <div className="space-y-6">
-              {/* Email Input */}
               <div>
                 <label className="block font-medium text-sm sm:text-lg mb-2">Email</label>
                 <input
@@ -21,7 +20,6 @@ const Signup = () => {
                   placeholder="Enter your Email ID"
                 />
               </div>
-              {/* Password Input */}
               <div>
                 <label className="block font-medium text-sm sm:text-lg mb-2">Password</label>
                 <input
