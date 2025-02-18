@@ -31,7 +31,6 @@ const Signup = () => {
                 />
               </div>
             </div>
-            {/* Buttons */}
             <div className="mt-6 space-y-4">
               <Link to="/adminn">
                 <button className="w-full bg-blue-500 text-white font-medium rounded-xl h-10 hover:bg-blue-600 transition">
