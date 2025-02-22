@@ -12,7 +12,6 @@ const Login = () => {
           </p>
           <div className="mt-8">
             <div className="space-y-6">
-              {/* Email Input */}
               <div>
                 <label className="block font-medium text-sm sm:text-lg mb-2">Email</label>
                 <input
@@ -21,7 +20,6 @@ const Login = () => {
                   placeholder="Enter your Email ID"
                 />
               </div>
-              {/* Password Input */}
               <div>
                 <label className="block font-medium text-sm sm:text-lg mb-2">Password</label>
                 <input
@@ -31,7 +29,6 @@ const Login = () => {
                 />
               </div>
             </div>
-            {/* Forget Password and Login Button */}
             <div className="mt-6 space-y-4">
               <button className="text-blue-500 text-sm sm:text-base hover:underline">
                 Forgot Password?
