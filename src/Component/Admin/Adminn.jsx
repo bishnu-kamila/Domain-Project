@@ -10,7 +10,6 @@ const styles = {
   card: 'border rounded-lg shadow p-6 text-center hover:bg-gray-100 cursor-pointer transition',
 };
 
-// Functional Component
 const Adminn = () => {
   const navigate = useNavigate();
 

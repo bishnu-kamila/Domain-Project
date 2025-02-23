@@ -37,9 +37,7 @@ function CanteenDashboard() {
         </form>
       </div>
 
-      {/* Cards Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl">
-        {/* Attendance Card */}
         <div className="bg-white shadow-md rounded-lg p-6">
           <h2 className="text-xl font-semibold mb-2">Student Attendance</h2>
           <p className="text-gray-600">Track student attendance for today.</p>
@@ -50,7 +48,6 @@ function CanteenDashboard() {
           </button>
         </div>
 
-        {/* Notifications Card */}
         <div className="bg-white shadow-md rounded-lg p-6">
           <h2 className="text-xl font-semibold mb-2">Notifications</h2>
           <p className="text-gray-600">View latest announcements and updates.</p>
