@@ -2,7 +2,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-// Tailwind CSS styling
 const styles = {
   container: 'p-4 max-w-7xl mx-auto',
   header: 'text-2xl font-bold mb-6 text-center',
