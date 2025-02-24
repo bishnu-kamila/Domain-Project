@@ -22,7 +22,6 @@ const Adminn = () => {
     { name: 'Notification', description: 'Send alerts and notifications' },
     { name: 'Feedback', description: 'Gather and view feedback' },
     { name: 'Hostel', description: 'View hostel overview and information' },
-    { name: 'Registration', description: 'Handle new user registrations' },
   ];
 
   return (
