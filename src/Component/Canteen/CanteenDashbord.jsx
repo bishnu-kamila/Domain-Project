@@ -17,7 +17,6 @@ function CanteenDashboard() {
     <div className="bg-gray-100 min-h-screen flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold mb-6 text-blue-600">Canteen Dashboard</h1>
 
-      {/* Menu Update Section */}
       <div className="w-full max-w-md bg-white shadow-md rounded-lg p-6 mb-6">
         <h2 className="text-2xl font-semibold mb-4">Update Today's Menu</h2>
         <form onSubmit={handleSubmit} className="flex flex-col">
