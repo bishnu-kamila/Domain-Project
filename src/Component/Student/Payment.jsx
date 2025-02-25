@@ -18,9 +18,9 @@ const Payment = () => {
 //         setFeesDue(0); // Set fees to 0 after successful payment
 //       },
 //       prefill: {
-//         name: 'Student Name', // Replace with actual data
-//         email: 'student@example.com', // Replace with actual data
-//         contact: '9999999999', // Replace with actual data
+//         name: 'Student Name', 
+//         email: 'student@example.com', 
+//         contact: '9999999999', 
 //       },
 //       theme: {
 //         color: '#4F46E5',
