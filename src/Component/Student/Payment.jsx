@@ -1,6 +1,5 @@
 // Import necessary modules
 import React, { useState } from 'react';
-// import Razorpay from 'razorpay';
 
 // Tailwind CSS Styles
 const Payment = () => {
