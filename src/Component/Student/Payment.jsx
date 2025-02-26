@@ -1,10 +1,8 @@
-// Import necessary modules
+
 import React, { useState } from 'react';
 
-// Tailwind CSS Styles
 const Payment = () => {
 //   const [feesDue, setFeesDue] = useState(5000); 
-
 //   const handlePayment = () => {
 //     const options = {
 //       key: 'YOUR_RAZORPAY_KEY', 
@@ -18,8 +16,8 @@ const Payment = () => {
 //       },
 //       prefill: {
 //         name: 'Student Name', 
-//         email: 'student@example.com', 
-//         contact: '9999999999', 
+//         email: 'student@example.com',
+//         contact: '9999999999',
 //       },
 //       theme: {
 //         color: '#4F46E5',
