@@ -2,37 +2,7 @@
 import React, { useState } from 'react';
 
 const Payment = () => {
-//   const [feesDue, setFeesDue] = useState(5000); 
-//   const handlePayment = () => {
-//     const options = {
-//       key: 'YOUR_RAZORPAY_KEY', 
-//       amount: feesDue * 100, 
-//       currency: 'INR',
-//       name: 'Fee Payment',
-//       description: 'Payment for remaining fees',
-//       handler: function (response) {
-//         alert(`Payment successful! Payment ID: ${response.razorpay_payment_id}`);
-//         setFeesDue(0); // Set fees to 0 after successful payment
-//       },
-//       prefill: {
-//         name: 'Student Name', 
-//         email: 'student@example.com',
-//         contact: '9999999999',
-//       },
-//       theme: {
-//         color: '#4F46E5',
-//       },
-//     };
 
-//     const rzp = new Razorpay(options);
-//     rzp.on('payment.failed', function (response) {
-//       alert(`Payment failed! Error: ${response.error.description}`);
-//     });
-
-//     rzp.open();
-//   };
-// const feesDue = 1000
-// const handlePayment = "Done"
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
