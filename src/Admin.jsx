@@ -22,7 +22,7 @@ const Admin = () => {
                         <h2 className="text-xl font-semibold mb-4">Student Management</h2>
                         <p>Monitor and control student access to facilities and services.</p>
                         <button className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-700">
-                            Manage Students
+                            Manage Student
                         </button>
                     </div>
                     <div className="bg-white shadow-lg rounded-lg p-6">
