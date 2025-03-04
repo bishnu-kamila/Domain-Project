@@ -5,7 +5,7 @@ const Hostel = ()=>{
                 <h1 className="font-bold text-2xl">Hostel</h1>
             </div>
             <div className="flex display-center justify-center mt-[30px]">
-                
+                <h1>Welcome to Hostel</h1>
             </div>
         </>
     )
