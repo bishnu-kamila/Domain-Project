@@ -60,7 +60,7 @@ const RoomInfo = () => {
           <div className="mt-6">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Room Details</h2>
             <p className="text-gray-700 mb-2">
-              <span className="font-medium">Room Number:</span> {roomData.roomNumber}
+              <span className="font-medium">Enter Room Number:</span> {roomData.roomNumber}
             </p>
             <p className="text-gray-700 mb-2">
               <span className="font-medium">Hostel Number:</span> {roomData.hostelNumber}
