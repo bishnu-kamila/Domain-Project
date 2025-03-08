@@ -24,7 +24,7 @@ const RoomInfo = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="bg-white p-6 rounded shadow-lg w-full max-w-md">
-        <h1 className="text-2xl font-bold mb-4 text-gray-800">Room Information</h1>
+        <h1 className="text-2xl font-bold mb-4 text-gray-800">Room Info</h1>
 
         <div className="mb-4">
           <label
