@@ -4,7 +4,7 @@ function Warden() {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <header className="bg-blue-500 text-white text-center py-4 rounded-md shadow-md mb-6">
-        <h1 className="text-2xl font-bold">Warden Dashboard</h1>
+        <h1 className="text-2xl font-bold">Warden Dashboard </h1>
       </header>
 
       <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
