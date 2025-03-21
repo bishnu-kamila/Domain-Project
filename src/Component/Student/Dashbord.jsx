@@ -58,7 +58,7 @@ const Dashbord = () => {
           <Link to="/roominfo">
             <div className="h-[150px] sm:h-[200px] w-[150px] sm:w-[200px] justify-center items-center rounded-[20px] sm:rounded-[40px] flex flex-col shadow-md hover:shadow-lg transition">
               <img src="./RoomImg.png" alt="Room Info" className="h-3/5 w-3/5" />
-              <h1 className="text-center text-black text-sm sm:text-xl">Room Info</h1>
+              <h1 className="text-center text-black text-sm sm:text-xl">Room_Info</h1>
             </div>
           </Link>
 
