@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 
 const Payment = () => {
-
-
+const feesDue = 2000
+const handlePayment = true
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white p-6 rounded-lg shadow-md">
